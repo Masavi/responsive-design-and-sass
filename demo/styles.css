@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 32px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+header {
+  height: 160px;
+  background-color: coral;
+}
+
+section {
+  border: 2px solid black;
+  /* width: 500px; */
+  font-size: 20px;
+}
+
+section div {
+  /*
+    ABSOLUTE UNITS
+      px, in, cm
+  */
+  height: 150px;
+  /*
+    RELATIVE UNITS
+      percentage (%)
+      viewport width (vw)
+      viewport height (vh)
+      em - related to the parent
+      rem - related to the DOCUMENT
+  */
+  width: 25rem;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 20px;
+  line-height: 150px;
+  display: inline-block;
+  background-color: lightpink;
+  text-align: center;
+}
+
+footer {
+  background-color: burlywood;
+  height: 150px;
+}
+
+@media only screen and (min-width: 800px) {
+  section {
+    background-color:darkgoldenrod;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  section {
+    background-color: cornflowerblue;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  section {
+    background-color:lightgreen;
+  }
+}

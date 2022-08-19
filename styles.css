@@ -1,0 +1,56 @@
+/*
+  2) IMPORT
+*/
+/*
+  1) VARIABLES
+*/
+h1 {
+  font-size: 32px;
+  color: crimson;
+  border: 2px groove black;
+}
+
+h2 {
+  font-size: 28px;
+  color: cadetblue;
+}
+
+/*
+  3) NESTING
+*/
+div {
+  height: 200px;
+  font-size: 24px;
+}
+div p {
+  padding: 10px;
+}
+div p span {
+  background-color: blue;
+}
+div a {
+  color: aquamarine;
+  font-style: italic;
+}
+
+/*
+  4) EXTEND
+*/
+header, .my-custom-header {
+  font: 24px;
+  background-color: darkgreen;
+}
+
+.my-custom-header {
+  text-align: center;
+}
+
+/*
+  5) MIXINS
+*/
+.my-other-header {
+  font-size: 64px;
+  color: salmon;
+  background-color: antiquewhite;
+  border: 2px groove black;
+}
